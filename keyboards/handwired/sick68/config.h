@@ -24,7 +24,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT_ID 0x5F00
 #define DEVICE_VER 0x0001
 #define MANUFACTURER umbynos
-#define PRODUCT sick68
+#define PRODUCT sick68 Proton C
 #define DESCRIPTION A 3d printed custom keyboard
 
 /* key matrix size */
@@ -42,9 +42,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
 #define MATRIX_ROW_PINS \
-    { D3, D2, D1, D0, D4 }
+        { B4, B3, B1, B1, B0 }
 #define MATRIX_COL_PINS \
-    { C6, D7, E6, B4, B5, B0, D5, B6, B2, B3, B1, F7, F6, F5, F4 }
+    { A4, A5, A6, A7, A8, A14, B12, B11, B10, B15, B14, B13, A0, A1, A2}
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL*/
